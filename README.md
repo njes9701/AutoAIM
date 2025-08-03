@@ -17,7 +17,8 @@ How to get arrow position:
 Turn on your machine and use /data get entity @n[type=minecraft:arrow]
 Use /tick step to observe arrow position
 Get the arrow position 1 game tick before launch:
-Pos: [0.010000000000000009d, -1.5840298512464805d, 0.0066421353728099986d]
+Pos: [0.010000000000000009d, -1.5840298512464805d, 0.0066421353728099986d]<img width="2560" height="1369" alt="2025-08-03_21 09 33" src="https://github.com/user-attachments/assets/53df3ccd-4377-49ce-84b7-08ab24ee2930" />
+
 Use the obtained values with /autoaim position x y z
 
 
