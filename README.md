@@ -1,3 +1,26 @@
+AutoAIM Mod
+This AutoAIM mod is inspired by cubicmetre's arrow_auto_aim Scarpet script.
+This automatic aiming module is specifically designed for cubicmetre's Air Defence System.
+It automatically compensates shooting angles based on server-client latency.
+Commands:
+/autoaim compensation [-10~10] (default: 2)
+Sets how many game ticks ahead to aim at the target position.
+/autoaim compensation auto
+Automatically detects network latency and compensates shooting angles. The initial value will increase or decrease based on the current compensation setting.
+/autoaim ping
+Shows current latency between client and server.
+/autoaim position x y z
+Sets the arrow launch position based on your air defense system. Default: 0.01, -1.5840298512464805, 0.0066421353727
+The mod will not function without proper configuration.
+How to get arrow position:
+
+Turn on your machine and use /data get entity @n[type=minecraft:arrow]
+Use /tick step to observe arrow position
+Get the arrow position 1 game tick before launch:
+Pos: [0.010000000000000009d, -1.5840298512464805d, 0.0066421353728099986d]
+Use the obtained values with /autoaim position x y z
+
+
 AutoAIM 模組程式靈感來自cubicmetre 的 arrow_auto_aim  Scarpet
 
 這是自動瞄準模組專門給 cubicmetre 的Air Defence System
