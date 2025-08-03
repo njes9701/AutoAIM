@@ -3,6 +3,8 @@ This AutoAIM mod is inspired by cubicmetre's arrow_auto_aim Scarpet script.
 This automatic aiming module is specifically designed for cubicmetre's Air Defence System.
 It automatically compensates shooting angles based on server-client latency.
 
+default toggle key :"G"
+
 Commands:
 /autoaim compensation [-10~10] (default: 2)
 Sets how many game ticks ahead to aim at the target position.
@@ -31,6 +33,8 @@ AutoAIM 模組程式靈感來自cubicmetre 的 arrow_auto_aim  Scarpet
 這是自動瞄準模組專門給 cubicmetre 的Air Defence System
 
 自動根據伺服器與客戶端延遲來自動補償射擊角度
+
+預設按鈕:"G"
 
 /autoaim compensation [-10~10] 預設2  瞄準位置提前幾個gametick
 
