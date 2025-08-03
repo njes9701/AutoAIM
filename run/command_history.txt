@@ -1,0 +1,12 @@
+/tp 0 ~ 0
+/tp 0 1.5 ~
+/effect give Player975 minecraft:night_vision infinite
+/script load fly_path
+/autoaim compensation 2
+/autoaim compensation 3
+/autoaim compensation 2
+/autoaim compensation 3
+/autoaim position
+/autoaim position 932411.01 61.41597014875352 -207606.99335786462
+/autoaim ping
+/autoaim compensation auto
